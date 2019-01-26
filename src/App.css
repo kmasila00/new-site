@@ -23,10 +23,25 @@
   cursor: pointer;
 }
 
+.navbar a:link {
+  text-decoration: none;
+}
+
 .appMain {
   background-color: #111111;
   width: 100%;
   display: flex;
+  flex-direction: column;
   padding: 60px 100px 60px 45px;
 }
 
+.mainContent p {
+  color: #FFFFFF;
+  opacity: 0.3;
+  position: absolute;
+  left: 30px;
+}
+
+.mainContent {
+  color: white;
+}

@@ -1,20 +1,22 @@
 import React, { Component } from 'react';
+import Navbar from './Navbar';
+import Home from './Home';
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import logo from './logo.svg';
 import './App.css';
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <div className="leftBorder"/>
-        <div className="appMain">
-          <div className="navbar">
-            <a>// About</a>
-            <a>// Work</a>
-            <a>// Experience</a>
+      <Router>
+        <div className="App">
+          <div className="leftBorder"/>
+          <div className="appMain">
+            <Navbar/>
+            <Route exact path="/" component={Home} />
           </div>
         </div>
-      </div>
+      </Router>
     );
   }
 }
