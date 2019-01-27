@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
+import '../styles/navbar.css';
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
 const Navbar = () => (
     <div className="navbar">
-      <Link to="/"><a>// About</a></Link>
-      <Link to="/"><a>// Work</a></Link>
-      <Link to="/"><a>// Experience</a></Link>
+      <Link to="/">// About</Link>
+      <Link to="/">// Work</Link>
+      <Link to="/">// Experience</Link>
 
       {/*<Route exact path="/" component={App} />*/}
       {/*<Route path="/about" component={App} />*/}

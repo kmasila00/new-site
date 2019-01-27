@@ -1,0 +1,38 @@
+.mainContent p {
+    color: #FFFFFF;
+    opacity: 0.3 !important;
+    position: absolute;
+    left: 30px;
+    font-size: 18px !important;
+}
+
+.mainContent {
+    color: white;
+    font-size: 40px;
+}
+
+.name {
+    color: #009ff2;
+}
+
+.mainContent a {
+    color: #FFFFFF;
+    opacity: 0.5;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.indent {
+    padding-left: 60px;
+    font-size: 30px !important;
+}
+
+.line3 {
+    color: #FFFFFF;
+}
+
+.mainPic {
+    border-radius: 50%;
+    width: 130px;
+    padding: 25px 20px;
+}

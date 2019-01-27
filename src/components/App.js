@@ -2,8 +2,7 @@ import React, { Component } from 'react';
 import Navbar from './Navbar';
 import Home from './Home';
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
-import logo from './logo.svg';
-import './App.css';
+import '../styles/App.css';
 
 class App extends Component {
   render() {
