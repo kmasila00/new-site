@@ -11,9 +11,9 @@ const Home = () => (
         <div style={{opacity: '0.5'}}>
           {'/*  '}
           <a>email</a>
-          <a>resume</a>
-          <a>github</a>
-          <a>linkedin</a>
+          <a target="_blank" href="https://drive.google.com/file/d/1akQ3a0t696R5dUUmknHNyGXmWyoqQQsy/view?usp=sharing">resume</a>
+          <a target="_blank" href="https://github.com/kmasila00">github</a>
+          <a target="_blank" href="https://www.linkedin.com/in/kelvin-masilamani">linkedin</a>
           {'  */'}
         </div>
     </div>
