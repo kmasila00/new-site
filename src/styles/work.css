@@ -1,0 +1,15 @@
+.workPage {
+    color: #FFFFFF;
+    height: 100%;
+}
+
+.header {
+    margin-top: 30px;
+    margin-bottom: 130px;
+    font-size: 30px;
+}
+
+.footer {
+    margin-top: 100px;
+    font-size: 30px;
+}

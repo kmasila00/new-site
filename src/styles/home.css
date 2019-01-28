@@ -1,3 +1,5 @@
+@import './App.css';
+
 .mainContent p {
     color: #FFFFFF;
     opacity: 0.3 !important;
@@ -12,7 +14,9 @@
 }
 
 .name {
-    color: #009ff2;
+    background: linear-gradient(127.76deg, #0DFC9C 0%, #00BDC0 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .mainContent a {
