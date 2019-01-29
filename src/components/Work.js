@@ -10,6 +10,16 @@ const Work = () => (
         title="Consumer Interface"
         tech="React Redux HTML CSS"
         path="/ci" />
+      <WorkTile
+        superTitle="OvationTix"
+        title="Reporting Dashboard"
+        tech="React Redux HTML CSS"
+        path="/rpt" />
+      <WorkTile
+        superTitle="OvationTix"
+        title="Admin Interface"
+        tech="Jquery HTML CSS"
+        path="/adm" />
     <div className="footer">{'}'}</div>
   </div>
 );

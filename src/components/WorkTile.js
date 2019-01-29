@@ -1,4 +1,5 @@
 import React from 'react';
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import '../styles/workTile.css'
 
 const WorkTile = (props) => {
@@ -16,7 +17,7 @@ const WorkTile = (props) => {
         </div>
       </div>
       <div className="rightContent">
-        <div className="button">See Project</div>
+        <div className="button"><Link to={`/work${props.path}`}>See Project</Link></div>
         <div className="box"/>
       </div>
     </div>
