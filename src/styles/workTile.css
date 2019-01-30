@@ -1,7 +1,7 @@
 .workTile {
     height: 450px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-bottom: 160px;
 }
 

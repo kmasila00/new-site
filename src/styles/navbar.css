@@ -3,6 +3,17 @@
     display: flex;
     height: 30px;
     justify-content: flex-end;
+    position: relative;
+}
+
+.nameHome {
+    background: linear-gradient(127.76deg, #0DFC9C 0%, #00BDC0 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    opacity: 1 !important;
+    position: absolute;
+    left: 0;
+    margin-left: 0 !important;
 }
 
 .navbar a {
