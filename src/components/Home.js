@@ -3,7 +3,6 @@ import Navbar from './Navbar';
 import '../styles/home.css';
 
 const Home = (props) => {
-  if(!props.isHome) props.updateIsHome(true);
   return (
     <div className="mainContent">
       <img className="mainPic" src={require('../images/kelvin.jpg')}/>

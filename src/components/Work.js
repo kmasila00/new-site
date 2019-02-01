@@ -3,10 +3,8 @@ import WorkTile from './WorkTile';
 import '../styles/work.css';
 
 const Work = (props) => {
-  if(props.isHome) props.updateIsHome(false);
   return (
     <div className="workPage">
-      <div className="header">_Work {'{'}</div>
         <WorkTile
           superTitle="OvationTix"
           title="Consumer Interface"
@@ -22,7 +20,6 @@ const Work = (props) => {
           title="Admin Interface"
           tech="Jquery HTML CSS"
           path="/adm" />
-      <div className="footer">{'}'}</div>
     </div>
   );
 }

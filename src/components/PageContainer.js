@@ -3,7 +3,7 @@ import Navbar from './Navbar';
 
 const PageContainer = (props) => (
   <div className="pageContainer">
-    <Navbar isHome={props.isHome} />
+    <Navbar location={props.location} isHome={props.isHome} />
     {props.children}
   </div>
 );

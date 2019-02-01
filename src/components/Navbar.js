@@ -1,16 +1,16 @@
 import React, { Component } from 'react';
 import '../styles/navbar.css';
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Route, NavLink } from "react-router-dom";
 
 const Navbar = (props) => {
   return (
     <div className="navbar">
-      { !props.isHome &&
-        <Link className="nameHome" to="/">_Kelvin Masilamani</Link>
+      { props.location.pathname !== "/" &&
+        <NavLink className="nameHome" to="/">_Kelvin Masilamani</NavLink>
       }
-      <Link to="/about">// About</Link>
-      <Link to="/work">// Work</Link>
-      <Link to="/experience">// Experience</Link>
+      <NavLink activeClassName='is-active' to="/about">// About</NavLink>
+      <NavLink activeClassName='is-active'to="/work">// Work</NavLink>
+      <NavLink activeClassName='is-active' to="/experience">// Experience</NavLink>
     </div>
   );
 }

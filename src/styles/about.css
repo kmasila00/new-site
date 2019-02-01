@@ -1,0 +1,44 @@
+.aboutPage {
+    height: 90%;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-around;
+    margin: 0px 150px;
+}
+
+.aboutPage .mainPic {
+    width: 400px !important;
+}
+
+.aboutPage .superTitle {
+    font-size: 50px;
+    opacity: 0.5;
+    font-family: 'Arvo', serif;
+}
+
+.aboutPage .title {
+    font-size: 80px;
+    opacity: 1;
+    font-family: 'Arvo', serif;
+    margin-bottom: 25px;
+}
+
+.description {
+    font-family: 'Roboto', sans-serif;
+    line-height: 20px;
+    margin-bottom: 15px;
+}
+
+.aboutPage .leftContent {
+    margin: 225px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 30%;
+}
+
+.rightContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

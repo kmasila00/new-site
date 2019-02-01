@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
-import '../styles/workTile.css'
+import '../styles/workTile.css';
 
 const WorkTile = (props) => {
   let techStack = props.tech.split(' ');
