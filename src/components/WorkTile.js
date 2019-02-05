@@ -17,7 +17,7 @@ const WorkTile = (props) => {
         </div>
       </div>
       <div className="rightContent">
-        <div className="button"><Link to={`/work${props.path}`}>See Project</Link></div>
+        <Link to={`/work${props.path}`}><div className="button">See Project</div></Link>
         <div className="box"/>
       </div>
     </div>

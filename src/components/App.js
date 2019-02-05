@@ -2,9 +2,10 @@ import React, { Component } from 'react';
 import Home from './Home';
 import Work from './Work';
 import About from './About';
+import Experience from './Experience';
 import PageContainer from './PageContainer';
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
-import '../styles/App.css';
+import '../styles/app.css';
 
 class App extends Component {
   render() {
@@ -17,6 +18,7 @@ class App extends Component {
               <Route exact path="/" render={() => <Home />} />
               <Route exact path="/work" render={() => <Work />} />
               <Route exact path="/about" render={() => <About />} />
+              <Route exact path="/experience" render={() => <Experience />} />
             </PageContainer>
           </div>
         )} />

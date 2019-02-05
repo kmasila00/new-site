@@ -1,0 +1,15 @@
+.expPageContainer {
+    color: white;
+    height: 100%;
+    position: relative;
+    margin-top: 160px;
+}
+
+.timeline {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+

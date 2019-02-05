@@ -1,0 +1,53 @@
+.blockContainerLeft {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 140px;
+}
+
+.blockContainerRight {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 140px;
+}
+
+.block {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.image {
+    margin-bottom: 35px;
+    width: 90px;
+    border-radius: 50px;
+}
+
+.role {
+    opacity: 0.5;
+    font-size: 16px;
+    margin-bottom: 12px;
+}
+
+.company {
+    font-size: 40px;
+    margin-bottom: 12px;
+}
+
+.timespan {
+    font-size: 14px;
+    font-family: Roboto, sans-serif;
+    font-weight: bold;
+    opacity: 0.5;
+    margin-bottom: 30px;
+}
+
+.listContainer {
+    padding-left: 15px !important;
+}
+
+.descList {
+    font-size: 12px;
+    font-weight: bold;
+    font-family: Roboto, sans-serif;
+    line-height: 20px;
+}

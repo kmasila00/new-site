@@ -20,6 +20,21 @@ const Work = (props) => {
           title="Admin Interface"
           tech="Jquery HTML CSS"
           path="/adm" />
+        <WorkTile
+          superTitle=""
+          title="new2nyc"
+          tech="React-Native HTML CSS"
+          path="/new" />
+        <WorkTile
+          superTitle="Your Favorite "
+          title="Team Sucks"
+          tech="Express Angular Sequelize HTML CSS Gulp"
+          path="/yfts" />
+        <WorkTile
+          superTitle=""
+          title="Grok"
+          tech="Express Angular Sequelize HTML CSS Gulp"
+          path="/grok" />
     </div>
   );
 }
