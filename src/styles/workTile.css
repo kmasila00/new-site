@@ -15,6 +15,7 @@
 
 .rightContent {
     position: relative;
+    margin-right: 250px;
 }
 
 .superTitle {
@@ -47,13 +48,13 @@
 .box {
     width: 450px;
     height: 450px;
-    background-color: #D8D8D8;
+    /*background-color: #D8D8D8;*/
 }
 
 .button {
     position: absolute;
     bottom: 45px;
-    left: -180px;
+    left: -150px;
     width: 200px;
     height: 60px;
     display: flex;
