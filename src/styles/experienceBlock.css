@@ -4,6 +4,18 @@
     margin-bottom: 140px;
 }
 
+@media (min-width: 2040px){
+    .blockContainerLeft {
+        padding-left: 10%;
+    }
+    .blockContainerRight {
+        padding-right: 10%;
+    }
+    .block {
+        width: 30% !important;
+    }
+}
+
 .blockContainerRight {
     display: flex;
     justify-content: flex-end;

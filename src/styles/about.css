@@ -37,8 +37,9 @@
     width: 30%;
 }
 
-.rightContent {
+.aboutPage .rightContent {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-right: 0;
 }
