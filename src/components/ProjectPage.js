@@ -70,27 +70,27 @@ const ProjectPageRPT = () => {
         </div>
         <div className="rightContent">
           <Images
-            desktop={'list_view_desktop.jpg'}
-            mobile={'list_view_mobile.jpg'} />
+            desktop={'reporting_line.png'}
+            mobile={null} />
         </div>
       </div>
       <div className="secondPage">
         <div className="imageContainer" style={{display: 'flex', justifyContent: 'space-around', alignItems: 'center'}}>
           <Images
-            desktop={'master_calendar_desktop.jpg'}
-            mobile={'master_calendar_mobile.png'} />
+            desktop={'reporting_ticket.png'}
+            mobile={null} />
           <div className="overview">TICKET BREAKDOWN</div>
         </div>
         <div className="imageContainer" style={{display: 'flex', justifyContent: 'space-around', alignItems: 'center'}}>
           <div className="overview">SERIES COMPARISON</div>
           <Images
-            desktop={'show_details_desktop.jpg'}
-            mobile={'show_details_mobile.jpg'} />
+            desktop={'reporting_comparison.png'}
+            mobile={null} />
         </div>
         <div className="imageContainer" style={{display: 'flex', justifyContent: 'space-around', alignItems: 'center', paddingBottom: '50'}}>
           <Images
-            desktop={'cart_desktop.jpg'}
-            mobile={'cart_mobile.jpg'} />
+            desktop={'reporting_builder.png'}
+            mobile={null} />
           <div className="overview">DAILY REPORT BUILDER</div>
         </div>
       </div>
@@ -114,28 +114,28 @@ const ProjectPageADM = () => {
         </div>
         <div className="rightContent">
           <Images
-            desktop={'list_view_desktop.jpg'}
+            desktop={'household_members.png'}
             mobile={null} />
         </div>
       </div>
       <div className="secondPage">
         <div className="imageContainer" style={{display: 'flex', justifyContent: 'space-around', alignItems: 'center'}}>
           <Images
-            desktop={'master_calendar_desktop.jpg'}
+            desktop={'household_addmember.png'}
             mobile={null} />
           <div className="overview">MEMBERS</div>
         </div>
         <div className="imageContainer" style={{display: 'flex', justifyContent: 'space-around', alignItems: 'center'}}>
           <div className="overview">DONATIONS</div>
           <Images
-            desktop={'show_details_desktop.jpg'}
+            desktop={'household_donations.png'}
             mobile={null} />
         </div>
         <div className="imageContainer" style={{display: 'flex', justifyContent: 'space-around', alignItems: 'center', paddingBottom: '50'}}>
           <Images
-            desktop={'cart_desktop.jpg'}
+            desktop={'household_orderhistory.png'}
             mobile={null} />
-          <div className="overview">TASKS</div>
+          <div className="overview">ORDER HISTORY</div>
         </div>
       </div>
     </div>

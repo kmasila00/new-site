@@ -5,7 +5,7 @@ const YearLine = (props) => {
   return (
     <div className="yearLineContainer">
       <div className="year">2019</div>
-      <div style={{height: '500px'}} className="line" />
+      <div style={{height: '550px'}} className="line" />
       <div className="year">2017</div>
       <div style={{height: '1000px'}} className="line" />
       <div className="year">2016</div>

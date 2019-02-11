@@ -5,9 +5,9 @@ import '../styles/experience.css';
 
 const expList = [
   {
-    imageUrl: 'mobilestartup.png',
+    imageUrl: 'ot_logo.png',
     role: "Front-End Developer",
-    company: "AudienceView",
+    company: "AudienceView, OvationTix",
     timespan: "Aug 2017 - Present",
     description: [
       "Developed interactive features and optimizations for a SaaS platform",
@@ -53,7 +53,7 @@ const expList = [
     ]
   },
   {
-    imageUrl: 'rx.png',
+    imageUrl: 'rx_logo.jpg',
     role: "Pharmacy Technician",
     company: "Bj's Pharmacy, Inc.",
     timespan: "June 2010 - Aug 2015",

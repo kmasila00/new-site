@@ -19,7 +19,7 @@ const WorkTile = (props) => {
       <div className="rightContent">
         <Link to={`/work${props.path}`}><div className="button">See Project</div></Link>
         <div className="box">
-          <iframe frameBorder="0" allowFullScreen="" width={props.iphone ? '246' : '800'} height={props.iphone ? '430' : '450'}
+          <iframe className={`videoFrame${props.iphone ? 'Mobile' : ''}`} frameBorder="0" allowFullScreen="" width={props.iphone ? '246' : '800'} height={props.iphone ? '430' : '450'}
                   src={props.gifLink}/>
         </div>
       </div>

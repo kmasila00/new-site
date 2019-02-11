@@ -48,7 +48,7 @@ const Work = (props) => {
         <WorkTile
           superTitle=""
           title="Grok"
-          tech="Express Angular Sequelize HTML CSS Gulp"
+          tech="Express Angular HTML CSS"
           gifLink={gifLinks[3]}
           path="/grok" />
     </div>
