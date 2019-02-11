@@ -11,6 +11,10 @@
     align-items: center;
 }
 
+.secondPage {
+    padding-top: 100px;
+}
+
 .projectPageContainer .leftContent {
     display: flex;
     flex-direction: column;
@@ -54,4 +58,8 @@
     bottom: -40px;
     right: -95px;
     box-shadow: 1px 1px 10px #666666;
+}
+
+.imageContainer {
+    padding-bottom: 200px;
 }
