@@ -1,65 +1,96 @@
 .blockContainerLeft {
-    display: flex;
-    justify-content: flex-start;
-    margin-bottom: 140px;
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 140px;
 }
 
-@media (min-width: 2040px){
-    .blockContainerLeft {
-        padding-left: 10%;
-    }
-    .blockContainerRight {
-        padding-right: 10%;
-    }
-    .block {
-        width: 30% !important;
-    }
+@media (min-width: 2040px) {
+  .blockContainerLeft {
+    padding-left: 10%;
+  }
+  .blockContainerRight {
+    padding-right: 10%;
+  }
+  .block {
+    width: 30% !important;
+  }
 }
 
 .blockContainerRight {
-    display: flex;
-    justify-content: flex-end;
-    margin-bottom: 140px;
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 140px;
 }
 
 .block {
-    display: flex;
-    flex-direction: column;
-    width: 40%;
+  display: flex;
+  flex-direction: column;
+  width: 40%;
 }
 
 .image {
-    margin-bottom: 35px;
-    width: 90px;
-    border-radius: 50px;
+  margin-bottom: 35px;
+  width: 90px;
+  border-radius: 50px;
 }
 
 .role {
-    opacity: 0.5;
-    font-size: 16px;
-    margin-bottom: 12px;
+  opacity: 0.5;
+  font-size: 16px;
+  margin-bottom: 12px;
 }
 
 .company {
-    font-size: 40px;
-    margin-bottom: 12px;
+  font-size: 40px;
+  margin-bottom: 12px;
 }
 
 .timespan {
-    font-size: 14px;
-    font-family: Roboto, sans-serif;
-    font-weight: bold;
-    opacity: 0.5;
-    margin-bottom: 30px;
+  font-size: 14px;
+  font-family: Roboto, sans-serif;
+  font-weight: bold;
+  opacity: 0.5;
+  margin-bottom: 30px;
 }
 
 .listContainer {
-    padding-left: 15px !important;
+  padding-left: 15px !important;
 }
 
 .descList {
+  font-size: 12px;
+  font-weight: bold;
+  font-family: Roboto, sans-serif;
+  line-height: 20px;
+}
+
+@media (max-width: 767px) {
+  .blockContainerLeft {
+    margin-bottom: 40px;
+  }
+  .blockContainerRight {
+    margin-bottom: 20px;
+  }
+  .block {
+    width: auto;
+  }
+  .image {
+    margin-bottom: 10px;
+    width: 45px;
+  }
+  .role {
+    font-size: 14px;
+    margin-bottom: 4px;
+  }
+  .company {
+    font-size: 28px;
+    margin-bottom: 12px;
+  }
+  .timespan {
     font-size: 12px;
-    font-weight: bold;
-    font-family: Roboto, sans-serif;
-    line-height: 20px;
+    margin-bottom: 0px;
+  }
+  .listContainer {
+    font-size: 12px;
+  }
 }
