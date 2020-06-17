@@ -1,14 +1,12 @@
 .workPage {
-    color: #FFFFFF;
-    height: 100%;
+  color: #ffffff;
+  height: 100%;
 }
 
-.header {
-    margin-top: 30px;
-    margin-bottom: 130px;
-    font-size: 30px;
-}
-
-.footer {
-    font-size: 30px;
+@media (max-width: 767px) {
+  .workPage {
+    height: auto;
+    margin-left: 45px;
+    padding-left: 10px;
+  }
 }
